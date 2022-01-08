@@ -1,0 +1,23 @@
+{
+    "tEnd": 100,
+    "dt": 0.01,
+
+    "initialPosition": [0.0, 0.0, 0.0],
+    "initialVelocity": [0.0, 0.0, 0.0],
+    "initialAcceleration": [0.0, 0.0, 0.0],
+    "initialAngularVelocity": [0.0001, 0.0, 0.0],
+    "initialAngularAcceleration": [0.0, 0.0, 0.0],
+
+    "mass": 200,
+    "moi": [[4223, 0, 0], 
+            [0, 4133, 0],
+            [0, 0, 768]], 
+
+    "thrusters": [{"controlVector": [1, 0, 0],
+                   "moment": 0},
+                  {"controlVector": [0, 1, 0],
+                    "moment": 0},
+                  {"controlVector": [0, 0, 1],
+                        "moment": 10}],
+    "controller": "constActive"
+}
